@@ -65,7 +65,7 @@ header {
 .section-2-header {
     display: flex;
     color: white;
-    font-size: 40px;
+    font-size: 60px;
 }
 
 .section-2-img {
@@ -155,17 +155,45 @@ header {
     display: flex;
     height: 1118px;
     border: solid 3px yellow;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-4-center {
+    display: flex;
+    border: red solid 3px;
+    height: 800px;
+    width: 1800px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .section-4-border {
     display: flex;
     border: red solid 3px;
-    height: ;
-    width: 1000px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.section-4-box {
+    display: flex;
+    border: white solid 5px;
+    height: 422px;
+    width: 422px;
+    margin: 30px;
+    border-radius: 25px;
+    padding: 30px;
+    color: white;
 }
 
-.section-4-box {
-
+.section-4-heading {
+    display: flex;
+    border: green solid 3px;
+    color: white;
+    font-size: 60px;
 }
 
 footer {
