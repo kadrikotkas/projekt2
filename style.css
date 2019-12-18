@@ -20,9 +20,12 @@ header {
     display: flex;
     background-size: auto;
     height: 900px;
-    width: 1920px;
     flex-direction: column;
     align-items: center;
+    object-fit: contain;
+    object-position: center;
+    background-position: center;
+    background-size: cover;
     background-image: url("https://raw.githubusercontent.com/kadrikotkas/projekt2/master/img/v4.png");
 }
 
@@ -37,10 +40,11 @@ svg {
     height: 100%
 }
 
-.menu-links {
+nav {
     display: flex;
     width: 100%;
 }
+
 
 a {
     color: white;
@@ -122,6 +126,8 @@ a:hover {
 
 .ram-member {
     display: flex;
+    object-fit: contain;
+    object-position: center;
     width: 1920px;
     height: 100%;
 }
